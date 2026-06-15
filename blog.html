@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <meta name="description" content="화곡 가라오케 예약 꿀팁 대방출. 룸 고르는 법부터 단체 예약 노하우까지, 화곡에서 진짜 재밌게 노는 방법 알려드림. 24시 예약 가능.">
+    <meta name="keywords" content="화곡 가라오케 예약 꿀팁, 화곡 가라오케 룸 추천, 화곡 가라오케 단체 예약, 화곡 가라오케 이용팁, 화곡 가라오케 후기, 화곡 노래방 예약 방법, 화곡 가라오케 시스템, 화곡 가라오케 꿀팁">
+    <meta name="author" content="화곡 가라오케">
+    <link rel="canonical" href="https://t3b07-hg-karaoke-rsv-1.vercel.app/">
+    <meta property="og:title" content="화곡 가라오케 예약 꿀팁 | 진짜 재미있게 노는 법">
+    <meta property="og:description" content="화곡 가라오케 예약, 이렇게 하면 후회 없음. 룸 고르기, 단체 예약, 음악 시스템까지 완벽 정리.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b07-hg-karaoke-rsv-1.vercel.app/">
+    <meta property="og:site_name" content="화곡 가라오케 예약">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>화곡 가라오케 예약 꿀팁 | 블로그</title>
+    <style>
+        /* RESET & BASE */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        a {
+            color: #f4e542;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+        }
+        a:hover {
+            border-bottom-color: #f4e542;
+        }
+        img, svg {
+            max-width: 100%;
+            display: block;
+        }
+        ul {
+            list-style: none;
+        }
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: #f4e542;
+            border-left: 6px solid #f4e542;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #f4e542;
+            margin: 2rem 0 1rem;
+            border-bottom: 2px dashed #f4e542;
+            padding-bottom: 0.5rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            color: #f4e542;
+            margin: 1.5rem 0 0.75rem;
+        }
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1.05rem;
+        }
+        strong {
+            color: #f4e542;
+        }
+        .highlight {
+            background: #f4e542;
+            color: #1a1a1a;
+            padding: 0.1rem 0.3rem;
+            font-weight: bold;
+        }
+        /* LAYOUT */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+        header {
+            background: #0f0f0f;
+            border-bottom: 4px solid #f4e542;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #f4e542;
+            letter-spacing: 2px;
+        }
+        .logo span {
+            color: #e0e0e0;
+            font-weight: 400;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        nav ul li a {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        nav ul li a:hover {
+            border-bottom-color: #f4e542;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 5px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background: #f4e542;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+        .tel-link {
+            background: #f4e542;
+            color: #1a1a1a !important;
+            padding: 0.5rem 1.2rem;
+            font-weight: 900;
+            border-radius: 4px;
+            border: none !important;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        .tel-link:hover {
+            background: #e0d432;
+        }
+        main {
+            flex: 1;
+            padding: 3rem 0 4rem;
+        }
+        footer {
+            background: #0f0f0f;
+            border-top: 4px solid #f4e542;
+            padding: 2rem 0;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #888;
+        }
+        /* BLOG POST STYLES */
+        .blog-post {
+            background: #222;
+            border: 2px solid #333;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .blog-post .meta {
+            font-size: 0.85rem;
+            color: #999;
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .blog-post .meta span {
+            background: #2a2a2a;
+            padding: 0.2rem 0.6rem;
+            border-radius: 3px;
+        }
+        .blog-post blockquote {
+            border-left: 4px solid #f4e542;
+            padding-left: 1.2rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #ccc;
+        }
+        .blog-post .tip-box {
+            background: #2a2a2a;
+            border: 1px solid #f4e542;
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .blog-post .tip-box h4 {
+            color: #f4e542;
+            margin-bottom: 0.5rem;
+        }
+        .blog-post ul {
+            list-style: square;
+            padding-left: 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .blog-post ul li {
+            margin-bottom: 0.5rem;
+        }
+        /* responsive 768 */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            h3 { font-size: 1.2rem; }
+            nav ul {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                gap: 0.8rem;
+                padding: 1rem 0;
+                background: #0f0f0f;
+                border-top: 2px solid #f4e542;
+                margin-top: 0.5rem;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+            .blog-post {
+                padding: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">화곡<span>KARAOKE</span></div>
+                <button class="hamburger-menu" aria-label="메뉴 열기" onclick="document.querySelector('nav ul').classList.toggle('active')">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/reservation">예약</a></li>
+                    <li><a href="/blog">블로그</a></li>
+                    <li><a href="/about">소개</a></li>
+                    <li><a href="/contact">문의</a></li>
+                    <li><a href="tel:010-1234-5678" class="tel-link">전화예약</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>화곡 가라오케 예약 꿀팁</h1>
+            <div class="blog-post">
+                <div class="meta">
+                    <span>📅 2025.04.08</span>
+                    <span>✍️ 화곡 가라오케 매니저</span>
+                    <span>🏷️ 예약팁 · 노하우</span>
+                </div>
+                <p><strong>형들, 안녕?</strong> 나 화곡 가라오케에서 3년째 일하고 있는 브로야. 오늘은 진짜 <span class="highlight">화곡 가라오케 예약 꿀팁</span> 싹 다 알려줄게. 나처럼 미리 알고 가면 후회 없음. ㅋㅋ</p>
+                <p>사실 가라오케 예약이 별거 있나 싶지? 근데 막상 가보면 룸도 별로고, 음악 시스템도 구리고, 친구들끼리 분위기 깨지는 경우 많잖아. 그래서 내가 <strong>현장 경험</strong>으로 뽑은 꿀팁 5개 준비했어.</p>
+
+                <h2>1. 룸 크기, 진짜 중요함</h2>
+                <p>화곡 가라오케 룸은 <strong>소형(4~6인)</strong>, <strong>중형(8~12인)</strong>, <strong>대형(15~20인)</strong> 이렇게 나눠져 있어. 근데 우리 집 룸들은 좀 넉넉하게 잡아놔서, 인원수보다 한 단계 작은 룸도 괜찮을 때가 있어. 예를 들어 8명이면 중형 말고 소형도 가능함. 돈 아끼고 싶다면 <strong>룸 사이즈를 한 단계 낮춰서 예약</strong>하는 게 팁이야. 단, 무리하지 말고!</p>
+                <div class="tip-box">
+                    <h4>💡 브로의 꿀팁</h4>
+                    <p>소형 룸은 6명까지 딱 좋음. 8명이면 중형 추천. 대형은 진짜 단체로 놀 때만 예약해. 돈 아깝지 않게.</p>
+                </div>
+
+                <h2>2. 예약 시간대, 이게 가장 중요</h2>
+                <p>화곡 가라오케는 <strong>24시간</strong> 운영하는데, 시간대별로 분위기가 완전 달라. <strong>오후 6시~9시</strong>는 가족 단위나 회식 자리 많고, <strong>밤 10시 이후</strong>는 진짜 핫함. 친구랑 미친 듯이 놀고 싶으면 <strong>밤 11시 이후</strong> 예약 추천. 근데 주말에는 예약이 빨리 마감되니까 <strong>최소 2~3일 전에 전화</strong>해서 잡아야 해. 안 그러면 눈물.</p>
+                <blockquote>
+                    "내 친구가 주말에 당일 예약했다가 2시간 기다렸다는 전설이 있음. 나는 그러지 마."
+                </blockquote>
+
+                <h2>3. 음악 시스템, 이거 모르면 후회</h2>
+                <p>화곡 가라오케 최신 시스템은 <strong>KY-9000</strong>이야. 노래방 앱처럼 검색도 빠르고, 음질도 쩔어. 근데 오래된 룸은 구형 시스템일 수도 있어. 예약할 때 꼭 <strong>"최신 시스템 룸으로 부탁합니다"</strong>라고 말해. 우리 직원들 다 알고 있음. 그리고 <strong>블루투스 스피커</strong> 연결되는 룸도 있으니까, 내 플레이리스트 틀고 싶으면 미리 물어봐.</p>
+                <ul>
+                    <li>✅ 최신 KY-9000 시스템 룸 요청</li>
+                    <li>✅ 블루투스 연결 가능 여부 확인</li>
+                    <li>✅ 마이크 2개 이상 기본 제공 (추가 가능)</li>
+                </ul>
+
+                <h2>4. 단체 예약, 이렇게 하면 혜택</h2>
+                <p>화곡 가라오케에서 <strong>10명 이상 단체 예약</strong>하면 음료 서비스나 시간 연장 혜택이 있을 때가 있어. 근데 이건 <strong>전화로 흥정</strong>해야 가능함. 홈페이지 예약만 하면 기본 요금만 나가니까, 꼭 전화해서 "단체인데 혜택 없나요?" 물어봐. 나도 단체 손님 오면 최대한 챙겨주려고 함. ㅎㅎ</p>
+                <div class="tip-box">
+                    <h4>📞 단체 예약 체크리스트</h4>
+                    <p>✔ 인원수 정확히 말하기<br>✔ 음료 or 안주 서비스 문의<br>✔ 시간 연장 가능한지 확인<br>✔ 도착 30분 전 재확인 전화</p>
+                </div>
+
+                <h2>5. 마지막 꿀팁: 예약 확인은 필수</h2>
+                <p>가끔 예약했는데도 시스템 오류로 빠지는 경우 있어. 그래서 <strong>예약 당일 오후에 전화 한 번 더</strong> 해서 확인하는 게 좋아. 우리 가게는 99% 문제없지만, 만약을 대비해야지. 그리고 <strong>취소는 최소 2시간 전</strong>에 알려줘야 위약금 없음. 친구들한테도 꼭 알려줘.</p>
+                <p>자, 형들. 이제 <strong>화곡 가라오케 예약</strong> 완전 정복했지? 나처럼 미리 알고 가면 진짜 재밌게 놀 수 있어. 궁금한 거 있으면 전화하거나, 홈페이지 예약 시스템 이용해. 그럼 우리 가게에서 보자! 🎤</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2025 화곡 가라오케 예약 · All rights reserved · <a href="tel:010-1234-5678">010-1234-5678</a></p>
+            <p>화곡동 · 24시 운영 · 단체석 완비</p>
+        </div>
+    </footer>
+    <script>
+        // 햄버거 메뉴 토글 (모바일)
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
